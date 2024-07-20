@@ -15,6 +15,7 @@ import { heroIcons } from "@/constants";
 import { ScrollParallax } from "react-just-parallax";
 import Generating from "../design/Generating";
 import Notification from "../design/Notification";
+import CompanyLogos from "../company-logos/company-logos.component";
 
 const Hero = () => {
   {
@@ -76,10 +77,8 @@ const Hero = () => {
                 />
               </HeroImageContainer>
 
-              {/* AI Is Generating Component w/ parallax effect */}
-              <ScrollParallax isAbsolutelyPositioned>
+              {/* AI Is Generating Component */}
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
-              </ScrollParallax>
 
               {/* Hero Icons Component w/ parallax effect */}
               <ScrollParallax isAbsolutelyPositioned>
@@ -119,6 +118,8 @@ const Hero = () => {
           {/* Circles Background */}
           <BackgroundCircles />
         </div>
+        
+        <CompanyLogos className="relative z-10 hidden mt-20 lg:block" />
       </HeroContainer>
 
       <BottomLine />
