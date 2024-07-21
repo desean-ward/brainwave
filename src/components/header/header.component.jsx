@@ -49,7 +49,7 @@ const Header = () => {
       className={`${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <HeaderContent>
-        <Link className="block w-[12rem] xl:mr-8" href="/hero">
+        <Link className="block w-[12rem] xl:mr-8" href="#hero">
           <Image src={brainwave} alt="Brainwave Logo" width={190} height={40} />
         </Link>
 
