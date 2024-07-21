@@ -1,12 +1,10 @@
 import tw from "tailwind-styled-components";
+import Section from "../section/section.component";
 
-export const BenefitsContainer = tw.section`
-    container 
-    relative
-`;
+export const BenefitsContainer = tw(Section)` `;
 
 export const BenefitsWrapper = tw.div`
-    
+    container relative
 `;
 
 export const BenefitsCardContainer = tw.div`

@@ -19,7 +19,6 @@ import Card3 from "@/assets/svg/cards/Card3";
 import Card4 from "@/assets/svg/cards/Card4";
 import Card5 from "@/assets/svg/cards/Card5";
 import Card6 from "@/assets/svg/cards/Card6";
-import ClipPath from "@/assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
