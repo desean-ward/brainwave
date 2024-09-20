@@ -4,6 +4,7 @@ import Collaboration from "@/components/collaboration/collaboration.component";
 import Header from "@/components/header/header.component";
 import Hero from "@/components/hero/hero.component";
 import Pricing from "@/components/pricing/pricing.component";
+import RoadMap from "@/components/roadmap/roadmap.component";
 import Services from "@/components/services/services.component";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <RoadMap />
       </div>
 
       <ButtonGradient />
