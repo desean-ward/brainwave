@@ -11,7 +11,6 @@ import {
   Services1Content,
   Services2Container,
   Services2Content,
-  Services3Container,
   Services3Content,
   ServicesContainer,
   ServicesWrapper,
@@ -108,7 +107,7 @@ const Services = () => {
                   {brainwaveServicesIcons.map((item, index) => (
                     <li
                       key={index}
-                      className={`rounded-2xl flex items-center justify-center ${
+                      className={`rounded-2xl flex items-center justify-center transition-shadow duration-300 hover:shadow-lg ${
                         index === 2
                           ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient rounded-2xl md:w-[4.5rem] md:h-[4.5rem]"
                           : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
@@ -121,7 +120,13 @@ const Services = () => {
                             : ""
                         }
                       >
-                        <Image src={item} width={24} height={24} alt="icon" />
+                        <Image
+                          src={item}
+                          width={24}
+                          height={24}
+                          className="transition cursor-pointer hover:scale-110"
+                          alt="icon"
+                        />
                       </div>
                     </li>
                   ))}

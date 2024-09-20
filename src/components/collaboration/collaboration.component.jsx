@@ -18,11 +18,10 @@ const Collaboration = () => {
   return (
     <CollaborationSection crosses>
       <CollaborationContainer>
-        <div className="max-w-[25rem]">
+        <div className="max-w-[25rem] mx-auto">
           <h2 className="mb-4 h2 md:mb-8">
             AI Chat App for seamless collaboration
           </h2>
-
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
               <li key={item.id} className="py-3 mb-3">
@@ -38,9 +37,8 @@ const Collaboration = () => {
               </li>
             ))}
           </ul>
-
           {/* Try it now button */}
-          <Button>Try it now</Button>
+          <Button className="md:left-[8rem] lg:left-0">Try it now</Button>
         </div>
 
         {/* Right Side */}
@@ -66,7 +64,7 @@ const Collaboration = () => {
               </GradientRing>
             </Ring>
 
-            { /* Apps */}
+            {/* Apps */}
             <ul>
               {collabApps.map((app, index) => (
                 <li
@@ -76,7 +74,7 @@ const Collaboration = () => {
                   }`}
                 >
                   <div
-                    className={` relative -top-[1.6rem] flex size-[3.2rem] bg-n-7 border-n-1/15 border rounded-xl -rotate-${
+                    className={` relative -top-[1.6rem] flex size-[3.2rem] bg-n-7 border-n-1/15 border rounded-xl  cursor-pointer hover:scale-105 transition -rotate-${
                       index * 45
                     }`}
                   >

@@ -98,10 +98,6 @@ export const Bento3Container = tw.div`
     lg:min-h-[46rem]
 `;
 
-export const Services3Container = tw.div`
-   
-`;
-
 export const Services3Content = tw.div`
     py-12 
     px-4 

@@ -10,6 +10,7 @@ export const BenefitsWrapper = tw.div`
 export const BenefitsCardContainer = tw.div`
     flex 
     flex-wrap 
+    justify-center
     gap-10 
     mb-10 
 `;
@@ -42,7 +43,7 @@ export const CardIconAndLink = tw.div`
     mx-auto 
     mt-auto 
     px-8 lg:px-4
-    md:max-w-[19rem]
+    md:max-w-[23rem]
 `;
 
 export const BgImageContainer = tw.div`
