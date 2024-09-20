@@ -1,6 +1,5 @@
-import React from "react";
 import {
-    Date,
+  Date,
   RoadmapCardsContainer,
   RoadmapContainer,
   RoadmapWrapper,
@@ -11,6 +10,7 @@ import { roadmap } from "@/constants";
 import Image from "next/image";
 import { check2, grid, loading } from "@/assets";
 import Tagline from "../tagline/tagline.component";
+import Button from "../button/button.component";
 
 const RoadMap = () => {
   return (
@@ -18,7 +18,6 @@ const RoadMap = () => {
       <RoadmapContainer>
         {/* Heading */}
         <Heading tag="Ready to get started" title="What we're working on" />
-
         {/* Cards */}
         <RoadmapCardsContainer>
           {roadmap.map((item) => {
@@ -83,6 +82,11 @@ const RoadMap = () => {
             );
           })}
         </RoadmapCardsContainer>
+        
+        {/* Roadmap button */}
+        <div className="flex justify-center w-full mt-16">
+          <Button className="mx-auto">Our Roadmap</Button>
+        </div>{" "}
       </RoadmapContainer>
     </RoadmapWrapper>
   );
