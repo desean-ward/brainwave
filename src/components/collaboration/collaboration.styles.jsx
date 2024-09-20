@@ -21,7 +21,8 @@ export const AppsContainer = tw.div`
    rounded-full 
    -translate-x-1/2 
    scale:75 
-   md:scale-100
+   md:scale-100 
+   mt-12 md:mt-0
 `;
 
 export const Ring = tw.div`

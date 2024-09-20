@@ -76,7 +76,7 @@ const Collaboration = () => {
                   }`}
                 >
                   <div
-                    className={`relative -top-[1.6rem] flex size-[3.2rem] bg-n-7 border-n-1/15 border rounded-xl -rotate-${
+                    className={` relative -top-[1.6rem] flex size-[3.2rem] bg-n-7 border-n-1/15 border rounded-xl -rotate-${
                       index * 45
                     }`}
                   >

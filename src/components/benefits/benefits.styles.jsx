@@ -11,7 +11,7 @@ export const BenefitsCardContainer = tw.div`
     flex 
     flex-wrap 
     gap-10 
-    mb-10
+    mb-10 
 `;
 
 export const BenefitsCard = tw.div`
@@ -20,7 +20,7 @@ export const BenefitsCard = tw.div`
     p-0.5 
     bg-no-repeat 
     bg-[length:100%_100%] 
-    md:max-w-[24rem] 
+    md:max-w-[24rem]
     z-10
     mb-6
 `;
@@ -40,7 +40,8 @@ export const CardIconAndLink = tw.div`
     flex 
     items-center 
     mx-auto 
-    t-auto 
+    mt-auto 
+    px-8 lg:px-4
     md:max-w-[19rem]
 `;
 
