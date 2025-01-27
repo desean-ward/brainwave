@@ -36,6 +36,12 @@ import {
   yourlogo,
 } from "@/assets";
 
+import logo1 from "@/assets/hero/logo-1.jpg";
+import logo2 from "@/assets/hero/logo-2.jpg";
+import logo3 from "@/assets/hero/logo-3.jpg";
+import logo4 from "@/assets/hero/logo-4.jpg";
+import logo5 from "@/assets/hero/logo-5.jpg";
+
 export const navigation = [
   {
     id: "0",
@@ -75,7 +81,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [logo1, logo2, logo3, logo4, logo5];
 
 export const brainwaveServices = [
   "Photo generating",

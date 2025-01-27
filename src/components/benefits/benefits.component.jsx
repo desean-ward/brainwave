@@ -57,9 +57,9 @@ const Benefits = () => {
                   alt={item.title}
                 />
 
-                <p className="ml-auto text-xs font-bold tracking-wider uppercase font-code text-n-1">
-                  Explore more
-                </p>
+                <a className="ml-auto text-xs font-bold tracking-wider uppercase font-code text-n-1">
+                  Explore more{" "}
+                </a>
                 <Arrow />
               </CardIconAndLink>
 

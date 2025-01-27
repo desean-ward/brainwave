@@ -15,7 +15,7 @@ const CompanyLogos = ({ className }) => {
             key={index}
             className="flex flex-1 items-center justify-center h-[8.5rem]"
           >
-            <Image src={logo} width={134} height={28} alt={logo} />
+            <Image src={logo} width={150} height={28} alt={logo} />
           </li>
         ))}
       </ul>
